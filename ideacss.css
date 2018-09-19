@@ -1,0 +1,103 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient(white,grey);
+	background-repeat: no-repeat;
+}
+
+
+.head{ 
+	margin: 0px;
+	height: 320px;
+	width: 100%;
+	background-image :url(bokeh.jpg);
+	background-image: opacity(0.75);
+}
+h1{
+	color: white;
+	font-family: serif;
+	font-size: 50px;
+	text-align: center;
+	padding: 70px;
+	line-height: 70px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	word-spacing: 10px;
+}
+
+nav ul li{
+	display: inline;
+	text-decoration: none;
+	letter-spacing: 7px;
+	word-spacing: 10px;
+	list-style-position: left;
+	padding: 40px;
+	font-weight: bold;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color:white	;
+}
+nav ul li a:hover{
+	color:black;
+	text-decoration: underline;
+}
+
+ nav ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+}
+ nav ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.b1{ background-image: url("q1.png"); 
+
+	height: 300px;
+	width: 100%;
+}
+
+.rt{
+	background-image: linear-gradient(black,orange);
+	margin-right: 50px;
+	float: right;
+	height: 100%;
+	width: 300px;
+}
+
+h2{		font-family: sans-serif;
+	letter-spacing: 5px; 
+	color: white;
+	text-align: center;
+
+}
+
+h2:hover{
+	font-size: 26px;
+	text-decoration: underline;
+}
+
+footer{
+	height:400px;
+	width: 10%;
+
+}
+
+.left{
+	height:400px;
+	width: 100px;
+	background-color: #e8e7e3;
+		font-size: 80px;
+}
+
+.rt1{
+	float: right;
+	font-size: 50px;
+}

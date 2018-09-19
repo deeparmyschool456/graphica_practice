@@ -1,0 +1,82 @@
+body{
+	background-color: #ddd;
+	font-style: serif;
+	font-size: 20;
+	font-weight: bold;
+	color:#399bff;
+	margin: 0px;
+}
+
+.header{
+	height:100px;
+	background-image: url(photos/qc.png);
+	color:white;
+	text-align: center;
+	float: center;
+	padding: 100px;
+	letter-spacing: 20px;
+	word-spacing: 40px;
+	font-size: 30px;
+}
+ 
+.header:hover{
+ 	background-image: url(photos/qc1.png);
+ 	color:white;
+}
+ .navigationDesktop{
+ 	background-color: red;
+ 	height: 90px;
+ }
+ nav{
+ 	display: block;
+ 	margin:0 auto;
+ 	text-align: left;
+ 	height: 40px;
+ 	width: 560px;
+ }
+ nav ul li{
+ 	float: left;
+ 	width: 140px;
+ 	height: 140px;
+ 	font-family:monospace;
+ 	font-size: 20px;
+ 	list-style: none;
+ 	line-height: 30px;
+ 	display: block;
+ 	margin:0 auto;
+ 	text-transform: uppercase;
+ 	
+ 	 }
+ 	 nav ul{
+ 	 	list-style: none;
+ 	 	float: left;
+ 	 	
+
+ 	 }
+ 	 
+
+ 	 nav a{
+ 	 	display: block;
+ 	 	text-decoration: none;
+ 	 	font-weight: bold;
+ 	 	color:black;
+ 	 	font-size:18px;
+ 	 	background-color: red;
+ 	 	 }
+ 	 nav a:hover{
+
+ 	 	background-color: #224433;
+ 	 	color:#f0f1f5;
+ 	 }
+
+ 	 nav ul ul li{
+ 	 	position: relative;
+ 	 	display: none;
+ 	 	float: left;
+ 	 }
+
+ 	 nav ul li:hover ul li{
+ 	 	color:red;
+ 	 	display: block;
+ 	 	float: left;
+ 	 }
