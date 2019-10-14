@@ -1,9 +1,8 @@
 body{
-	background-color: #ddd;
+	background-color: aqua;
 	font-style: serif;
-	font-size: 20;
-	font-weight: bold;
-	color:#399bff;
+	font-size: 10;
+	color:blue;
 	margin: 0px;
 }
 
@@ -16,16 +15,14 @@ body{
 	padding: 100px;
 	letter-spacing: 20px;
 	word-spacing: 40px;
-	font-size: 30px;
+	font-size: 20px;
+	color: white;
 }
  
-.header:hover{
- 	background-image: url(photos/qc1.png);
- 	color:white;
-}
+
  .navigationDesktop{
- 	background-color: red;
- 	height: 90px;
+ 	background-color: white;
+ 	height: 100px;
  }
  nav{
  	display: block;
@@ -36,23 +33,22 @@ body{
  }
  nav ul li{
  	float: left;
- 	width: 140px;
- 	height: 140px;
+ 	width: 150px;
+ 	height: 50px;
  	font-family:monospace;
- 	font-size: 20px;
+ 	font-size: 15px;
  	list-style: none;
  	line-height: 30px;
  	display: block;
  	margin:0 auto;
  	text-transform: uppercase;
+ 	background-color: white;
  	
  	 }
  	 nav ul{
  	 	list-style: none;
  	 	float: left;
- 	 	
-
- 	 }
+ 	 	}
  	 
 
  	 nav a{
@@ -60,12 +56,13 @@ body{
  	 	text-decoration: none;
  	 	font-weight: bold;
  	 	color:black;
- 	 	font-size:18px;
- 	 	background-color: red;
+ 	 	font-size:15px;
+ 	 	background-color: aqua;
+ 	 	color:blue;
  	 	 }
  	 nav a:hover{
 
- 	 	background-color: #224433;
+ 	 	background-color: aqua;
  	 	color:#f0f1f5;
  	 }
 
